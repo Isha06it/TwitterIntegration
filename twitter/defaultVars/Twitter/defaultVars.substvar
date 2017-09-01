@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
+	<globalVariables>
+		<globalVariable>
+			<name>URI</name>
+			<value>https://api.twitter.com/1.1/search/tweets.json?q=Iot&amp;result_type=recent&amp;count=10</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1504235943091</modTime>
+		</globalVariable>
+		<globalVariable>
+			<name>accessToken</name>
+			<value>2785311060-Mg8QtDXYqvFzr1V83OQtBFCVu4PaC8liw5xCjbU</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1504230383138</modTime>
+		</globalVariable>
+		<globalVariable>
+			<name>accessTokenSecret</name>
+			<value>l06CxG0PRammOn2DE9Edi853AtmRC3lEqEzs5J08JyfXp</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1504230383435</modTime>
+		</globalVariable>
+		<globalVariable>
+			<name>consumerKey</name>
+			<value>9soessXmcwan8jcou2wtI0RiU</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1504230383513</modTime>
+		</globalVariable>
+		<globalVariable>
+			<name>consumerSecret</name>
+			<value>fb7xCpeEHHoEQZOFckKX5N0QsLpDn15NOCsUlFMNwhag2aQbhx</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1504230383576</modTime>
+		</globalVariable>
+	</globalVariables>
+</repository>

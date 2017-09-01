@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource>
+    <name>OAuth1.0</name>
+    <resourceType>ae.shared.RestSharedResource</resourceType>
+    <config>
+        <oauth1ConsumerKeyUI>#!dsvOY+oFZYEzotmb4tDS4FKhnQw/4HVO6SsMBTQ42+g13A+0POupym/eCU/9h+aKXVHdIW1Fq/atQ0qH6LCQXA==</oauth1ConsumerKeyUI>
+        <oauth1ConsumerSecretUI>#!82GQd8QOZDFNdALIjsxeCJJCTeEnPdkirZtJLXgm12AR0vNA+5/3+tEB87yJ5SvrjGi/eza2hFL8kK2bG8BBKfiLzajofeTfavSeHlMnxBHnm5X7T9Y2bY8JhZkaA7kfwIK6udw90Dm8d7qzqFGG/g==</oauth1ConsumerSecretUI>
+        <oauth1AccessTokenUI>#!ATZAIKIR9ZVN3dbEmUxa7mFUxmsO26bwGPVsieryOB0rElqDbeLDm6n3CmtpJ+JSWFkuHSn1/GUEA4Neka3rnZU90WSdMy44jeI35X55OwtDwTeDeBKBENer1awS2JCQMR0+bGAksmaI89QQOWJGWA==</oauth1AccessTokenUI>
+        <oauth1AccessTokenSecretUI>#!x6+1tsPklXJpX9HIwobV3gAmz/fa0LbN6AlrR3al2w4MXOdQW3DrJz7EkMrbcT+DxbtTw1n5F3HjsNrtW76G0I55Sy9Q0uiwpXnFdwwu1t9loMRG/kP4CWCxLvyH1rPH8mTq+QnTS+0=</oauth1AccessTokenSecretUI>
+    </config>
+</BWSharedResource>

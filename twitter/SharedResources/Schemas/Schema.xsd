@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="JSON" type="statuses_L"/>
+	<xs:complexType name="statuses_L">
+		<xs:sequence>
+			<xs:element name="statuses" type="statuses_T" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="search_metadata" type="search_metadata_T"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="statuses_T">
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="search_metadata_T">
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

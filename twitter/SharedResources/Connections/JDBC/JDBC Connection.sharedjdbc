@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource>
+    <name>JDBC Connection</name>
+    <resourceType>ae.shared.JDBCSharedResource</resourceType>
+    <config>
+        <driver>%%JDBC/Jdbc_Driver%%</driver>
+        <maxConnections>%%JDBC/Acme_Oracle/Max_Connections%%</maxConnections>
+        <loginTimeout>%%JDBC/Login_Timeout%%</loginTimeout>
+        <connectionType>JDBC</connectionType>
+        <UseSharedJndiConfig>false</UseSharedJndiConfig>
+        <location>%%JDBC/Acme_Oracle/JDBC_URL%%</location>
+        <user>%%JDBC/Acme_Oracle/Username%%</user>
+        <password>%%JDBC/Acme_Oracle/Password%%</password>
+    </config>
+</BWSharedResource>
